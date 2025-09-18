@@ -61781,7 +61781,7 @@ if(s==null)p=g
 else{r=A.S(s).i("V<1,aC<h,B>>")
 r=A.W(new A.V(s,new A.aLM(),r),!0,r.i("ag.E"))
 p=r}if(p==null)p=A.a([],t.Mq)
-s=""+"grativendas500\n"+("Cliente: "+A.e(q)+"\n")+f
+s=""+"grativendas900\n"+("Cliente: "+A.e(q)+"\n")+f
 r=b.ax
 o=r==null
 if((o?g:r.c)!=null){s+="Endere\xe7o:\n"
@@ -61986,7 +61986,7 @@ aNR(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b="---------------------------
 $.bga().qQ("eval",[u.L])
 s=A.y(a,!1,t.Ta)
 r=new A.cR("")
-q=""+"grativendas500\n"
+q=""+"grativendas900\n"
 r.a=q
 p=c.a
 q+="MESA: "+p.c+"\n"
@@ -62291,7 +62291,7 @@ m=(r==null?$.ad=$.be():r).bq(p)
 A.ap(m,n,!0)
 n=t.N
 r=t.j
-r=new A.hs(s,A.a0c(new A.b7(m)),[],A.G(n,r),A.G(n,r),"grativendas500",A.a([],t.jf),new A.kO(q,q,q,q,q,q,q,q,q,q),new A.kO(q,q,q,q,q,q,q,q,q,q),new A.p(o),new A.p(o),new A.p(o),new A.p(o),new A.p(4294967295),$.aA())
+r=new A.hs(s,A.a0c(new A.b7(m)),[],A.G(n,r),A.G(n,r),"grativendas900",A.a([],t.jf),new A.kO(q,q,q,q,q,q,q,q,q,q),new A.kO(q,q,q,q,q,q,q,q,q,q),new A.p(o),new A.p(o),new A.p(o),new A.p(o),new A.p(4294967295),$.aA())
 r.FC()
 r.Fz()
 r.FH()
@@ -62593,39 +62593,39 @@ mh(){var s=this
 return A.a_(["cepFormated",s.a,"street",s.b,"number",s.c,"complement",s.d,"district",s.e,"zipCode",s.f,"city",s.r,"state",s.w,"latitude",s.x,"longitude",s.y],t.N,t.z)}}
 A.hs.prototype={
 gmS(){var s=this.a
-return A.bR(s,s.gaK().bu("apps/grativendas500/aux")).bc("delivery")},
+return A.bR(s,s.gaK().bu("apps/grativendas900/aux")).bc("delivery")},
 ga9c(){var s=this.a
-return A.bR(s,s.gaK().bu("apps/grativendas500/aux")).bc("canDelivery")},
+return A.bR(s,s.gaK().bu("apps/grativendas900/aux")).bc("canDelivery")},
 ga9a(){var s=this.a
-return A.bR(s,s.gaK().bu("apps/grativendas500/aux")).bc("canBalcao")},
+return A.bR(s,s.gaK().bu("apps/grativendas900/aux")).bc("canBalcao")},
 ga9d(){var s=this.a
-return A.bR(s,s.gaK().bu("apps/grativendas500/aux")).bc("canPoints")},
+return A.bR(s,s.gaK().bu("apps/grativendas900/aux")).bc("canPoints")},
 ga9g(){var s=this.a
-return A.bR(s,s.gaK().bu("apps/grativendas500/aux")).bc("howManyPointsPerReal")},
+return A.bR(s,s.gaK().bu("apps/grativendas900/aux")).bc("howManyPointsPerReal")},
 gxh(){var s=this.a
-return A.bR(s,s.gaK().bu("apps/grativendas500/configs")).bc("colors")},
+return A.bR(s,s.gaK().bu("apps/grativendas900/configs")).bc("colors")},
 ga9e(){var s=this.a
-return A.bR(s,s.gaK().bu("apps/grativendas500/aux")).bc("confirmOrder")},
+return A.bR(s,s.gaK().bu("apps/grativendas900/aux")).bc("confirmOrder")},
 gTx(){var s=this.a
-return A.bR(s,s.gaK().bu("apps/grativendas500/aux")).bc("payments")},
+return A.bR(s,s.gaK().bu("apps/grativendas900/aux")).bc("payments")},
 ga9h(){var s=this.a
-return A.bR(s,s.gaK().bu("apps/grativendas500/aux")).bc("isMesa")},
+return A.bR(s,s.gaK().bu("apps/grativendas900/aux")).bc("isMesa")},
 ga99(){var s=this.a
-return A.bR(s,s.gaK().bu("apps/grativendas500/aux")).bc("allMesas")},
+return A.bR(s,s.gaK().bu("apps/grativendas900/aux")).bc("allMesas")},
 ga9b(){var s=this.a
-return A.bR(s,s.gaK().bu("apps/grativendas500/aux")).bc("canCustomPix")},
+return A.bR(s,s.gaK().bu("apps/grativendas900/aux")).bc("canCustomPix")},
 ga9f(){var s=this.a
-return A.bR(s,s.gaK().bu("apps/grativendas500/aux")).bc("customPixKey")},
+return A.bR(s,s.gaK().bu("apps/grativendas900/aux")).bc("customPixKey")},
 uP(a,b){return this.afb(a,b)},
 afb(a,b){var s=0,r=A.o(t.H),q=1,p,o=this,n,m,l,k,j,i
 var $async$uP=A.k(function(c,d){if(c===1){p=d
 s=q}while(true)switch(s){case 0:q=3
 l=o.a
 s=6
-return A.j(A.bR(l,l.gaK().bu("apps/grativendas500/users")).bc(a).dc(0),$async$uP)
+return A.j(A.bR(l,l.gaK().bu("apps/grativendas900/users")).bc(a).dc(0),$async$uP)
 case 6:n=d
 m=J.a2(n,"totalPoints")
-l=A.bR(l,l.gaK().bu("apps/grativendas500/users")).bc(a)
+l=A.bR(l,l.gaK().bu("apps/grativendas900/users")).bc(a)
 k=A.fu(A.a_(["totalPoints",J.bmJ(m,b)],t.K,t.X))
 k.toString
 l.a.bj(0,k)
@@ -62905,11 +62905,11 @@ h.toString
 m=new A.th(j,i,h,k)
 k=n.a
 s=7
-return A.j(A.bR(k,k.gaK().bu("apps/grativendas500/discountCodes")).bc(n.cx).dc(0),$async$B6)
+return A.j(A.bR(k,k.gaK().bu("apps/grativendas900/discountCodes")).bc(n.cx).dc(0),$async$B6)
 case 7:l=b
 s=!l.gfc()?8:10
 break
-case 8:k=A.bR(k,k.gaK().bu("apps/grativendas500/discountCodes")).bc(n.cx)
+case 8:k=A.bR(k,k.gaK().bu("apps/grativendas900/discountCodes")).bc(n.cx)
 j=A.d9(A.a_(["code",m.a,"howMuch",m.b,"minimumValue",m.c,"type",m.d],t.N,t.X))
 j.toString
 s=11
@@ -62947,7 +62947,7 @@ o.c=!0
 o.B()
 n=o.a
 s=6
-return A.j(A.bR(n,n.gaK().bu("apps/grativendas500/discountCodes")).bc(a.a).a.bF(0),$async$IU)
+return A.j(A.bR(n,n.gaK().bu("apps/grativendas900/discountCodes")).bc(a.a).a.bF(0),$async$IU)
 case 6:if(B.b.p(o.CW,a))B.b.F(o.CW,a)
 q=1
 s=5
@@ -62969,7 +62969,7 @@ var $async$FI=A.k(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 m=o.a
 s=6
-return A.j(A.bR(m,m.gaK().bu("apps/grativendas500/discountCodes")).dc(0),$async$FI)
+return A.j(A.bR(m,m.gaK().bu("apps/grativendas900/discountCodes")).dc(0),$async$FI)
 case 6:n=b
 m=n.giv()
 l=A.S(m).i("V<1,th>")
@@ -63659,7 +63659,7 @@ p=A.W(new A.aw(p,new A.aqQ(s),r),!0,r.i("x.E"))}if(s.d){r=A.S(p).i("aw<1>")
 p=A.W(new A.aw(p,new A.aqR(s),r),!0,r.i("x.E"))}r=A.S(p).i("aw<1>")
 return A.W(new A.aw(p,new A.aqS(s),r),!0,r.i("x.E"))},
 ayh(){var s=this.x
-this.y=A.bR(s,s.gaK().bu("apps/grativendas500/orders")).nn().hh(new A.aqM(this))},
+this.y=A.bR(s,s.gaK().bu("apps/grativendas900/orders")).nn().hh(new A.aqM(this))},
 ayk(){var s=this.x
 this.y=A.bR(s,s.gaK().bu("shoppingOrders")).nn().hh(new A.aqJ(this))},
 Xm(a,b){var s
@@ -63672,7 +63672,7 @@ yz(){var s=0,r=A.o(t.bo),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e
 var $async$yz=A.k(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 i=n.x
-m=A.bR(i,i.gaK().bu("apps/grativendas500/aux")).bc("ordercounterMesa")
+m=A.bR(i,i.gaK().bu("apps/grativendas900/aux")).bc("ordercounterMesa")
 s=7
 return A.j(J.bgs(m),$async$yz)
 case 7:l=b
@@ -63815,7 +63815,7 @@ if(a===o){s=p.b
 s===$&&A.b()
 return s}}return null},
 a2a(){var s=this.b
-this.c=A.bR(s,s.gaK().bu("apps/grativendas500/users")).nn().hh(new A.arA(this))},
+this.c=A.bR(s,s.gaK().bu("apps/grativendas900/users")).nn().hh(new A.arA(this))},
 Dz(a){return this.aT7(a)},
 aT7(a){var s=0,r=A.o(t.H),q=1,p,o=this,n,m,l,k,j,i,h
 var $async$Dz=A.k(function(b,c){if(b===1){p=c
@@ -63823,7 +63823,7 @@ s=q}while(true)switch(s){case 0:o.d=!0
 o.B()
 q=3
 n=o.b
-m=A.bR(n,n.gaK().bu("apps/grativendas500/admins")).bc(a)
+m=A.bR(n,n.gaK().bu("apps/grativendas900/admins")).bc(a)
 l=t.N
 k=t.z
 j=A.d9(A.a_(["user",a],l,k))
@@ -63857,7 +63857,7 @@ o.B()
 q=3
 n=o.b
 s=6
-return A.j(A.bR(n,n.gaK().bu("apps/grativendas500/admins")).bc(a).a.bF(0),$async$D7)
+return A.j(A.bR(n,n.gaK().bu("apps/grativendas900/admins")).bc(a).a.bF(0),$async$D7)
 case 6:s=7
 return A.j(A.bR(n,n.gaK().bu("allAdmins")).bc(a).a.bF(0),$async$D7)
 case 7:q=1
@@ -63882,7 +63882,7 @@ o.B()
 q=3
 n=o.b
 s=6
-return A.j(A.bR(n,n.gaK().bu("apps/grativendas500/admins")).bc(a).a.bF(0),$async$tL)
+return A.j(A.bR(n,n.gaK().bu("apps/grativendas900/admins")).bc(a).a.bF(0),$async$tL)
 case 6:s=7
 return A.j(A.bR(n,n.gaK().bu("allAdmins")).bc(a).a.bF(0),$async$tL)
 case 7:q=1
@@ -63897,7 +63897,7 @@ break
 case 5:q=9
 n=o.b
 s=12
-return A.j(A.bR(n,n.gaK().bu("apps/grativendas500/users")).bc(a).a.bF(0),$async$tL)
+return A.j(A.bR(n,n.gaK().bu("apps/grativendas900/users")).bc(a).a.bF(0),$async$tL)
 case 12:q=1
 s=11
 break
@@ -63920,7 +63920,7 @@ o.d=!0
 o.B()
 k=o.b
 s=2
-return A.j(A.bR(k,k.gaK().bu("apps/grativendas500/users")).dc(0),$async$Bb)
+return A.j(A.bR(k,k.gaK().bu("apps/grativendas900/users")).dc(0),$async$Bb)
 case 2:j=e.giv().length
 n=A.e(B.c.ft(b).split(" ")[0])+j+"@gmail.com"
 if(c!=null&&J.cn(c)===0)c=null
@@ -63928,7 +63928,7 @@ else if(c!=null&&J.cn(c)!==0)c=o.JJ(c)
 m=!0
 if(a.b==null)m=!1
 q=4
-k=A.bR(k,k.gaK().bu("apps/grativendas500/users"))
+k=A.bR(k,k.gaK().bu("apps/grativendas900/users"))
 l=A.G(t.N,t.K)
 J.ii(l,"name",b)
 J.ii(l,"email",n)
@@ -63982,7 +63982,7 @@ h=new A.mT(new A.b7(i),"(default)")
 g=$.bO()
 g.a.set(h,j)
 $.iN=h
-j=h}j=o.c=j.mD(n,m)}j=new A.zD(o,j.bu("apps/grativendas500/admins"))
+j=h}j=o.c=j.mD(n,m)}j=new A.zD(o,j.bu("apps/grativendas900/admins"))
 A.ap(j.gaK(),$.rQ(),!0)
 h=k.a
 h===$&&A.b()
@@ -64039,7 +64039,7 @@ s=p}while(true)switch(s){case 0:n.ch=!0
 p=4
 j=n.cx
 s=7
-return A.j(A.bR(j,j.gaK().bu("apps/grativendas500/aux")).bc("allMesas").dc(0),$async$yy)
+return A.j(A.bR(j,j.gaK().bu("apps/grativendas900/aux")).bc("allMesas").dc(0),$async$yy)
 case 7:m=b
 if(m.gfc()&&J.da(m)!=null){j=t.P
 l=j.a(J.da(m))
@@ -64114,7 +64114,7 @@ A.ap(o,$.c1(),!0)
 p=A.dK(new A.b7(o))
 m=m.a
 m===$&&A.b()
-m=A.eJ(p,p.gaK().bc("apps/grativendas500/users/"+m)).bu("cart").dc(0)}s=2
+m=A.eJ(p,p.gaK().bc("apps/grativendas900/users/"+m)).bu("cart").dc(0)}s=2
 return A.j(t.jq.b(m)?m:A.fP(m,t.n_),$async$Gh)
 case 2:n=b
 if(n!=null){m=n.giv()
@@ -64173,7 +64173,7 @@ A.ap(o,p,!0)
 p=A.dK(new A.b7(o))
 m=m.a
 m===$&&A.b()
-A.eJ(p,p.gaK().bc("apps/grativendas500/users/"+m)).bu("cart").u(0,r.VL()).cd(0,new A.aua(r),t.N)}k.zV()}k.B()},
+A.eJ(p,p.gaK().bc("apps/grativendas900/users/"+m)).bu("cart").u(0,r.VL()).cd(0,new A.aua(r),t.N)}k.zV()}k.B()},
 aGZ(a){return this.a6w(a,null)},
 aH_(a){var s,r,q,p,o,n,m,l,k=this,j="[DEFAULT]"
 try{s=B.b.hU(k.a,new A.au7(a))
@@ -64204,7 +64204,7 @@ A.ap(o,p,!0)
 p=A.dK(new A.b7(o))
 m=m.a
 m===$&&A.b()
-A.eJ(p,p.gaK().bc("apps/grativendas500/users/"+m)).bu("cart").u(0,r.VL()).cd(0,new A.au8(r),t.N)
+A.eJ(p,p.gaK().bc("apps/grativendas900/users/"+m)).bu("cart").u(0,r.VL()).cd(0,new A.au8(r),t.N)
 k.zV()}k.B()},
 aRT(a){var s,r,q=this,p=q.a
 if(!!p.fixed$length)A.K(A.ai("removeWhere"))
@@ -64218,7 +64218,7 @@ A.ap(r,$.c1(),!0)
 s=A.dK(new A.b7(r))
 p=p.a
 p===$&&A.b()
-A.eJ(s,s.gaK().bc("apps/grativendas500/users/"+p)).bu("cart").bc(a.b).a.bF(0)
+A.eJ(s,s.gaK().bc("apps/grativendas900/users/"+p)).bu("cart").bc(a.b).a.bF(0)
 a.J(0,q.gGA())
 q.B()},
 X(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g="[DEFAULT]"
@@ -64245,7 +64245,7 @@ i.a.set(j,m)
 $.iN=j
 m=j}else m=j
 m=k.c=m.mD(k.d,k.f)}else m=j
-n=m.bc("apps/grativendas500/users/"+n)
+n=m.bc("apps/grativendas900/users/"+n)
 m=$.pm()
 A.ap(n,m,!0)
 n=new A.zD(k,n.a.bu(B.b.bl(n.b.a,"/")+"/cart"))
@@ -64285,7 +64285,7 @@ k.a.set(l,o)
 $.iN=l
 o=l}else o=l
 o=m.c=o.mD(m.d,m.f)}else o=l
-q=o.bc("apps/grativendas500/users/"+q)
+q=o.bc("apps/grativendas900/users/"+q)
 o=$.pm()
 A.ap(q,o,!0)
 q=new A.zD(m,q.a.bu(B.b.bl(q.b.a,"/")+"/cart"))
@@ -64304,7 +64304,7 @@ s=p}while(true)switch(s){case 0:n.ch=!0
 p=4
 k=n.cx
 s=7
-return A.j(A.bR(k,k.gaK().bu("apps/grativendas500/discountCodes")).bc(n.x).dc(0),$async$DY)
+return A.j(A.bR(k,k.gaK().bu("apps/grativendas900/discountCodes")).bc(n.x).dc(0),$async$DY)
 case 7:m=b
 if(m.gfc()&&J.da(m)!=null){l=t.P.a(J.da(m))
 n.y=A.bb(J.a2(l,"howMuch"))
@@ -64520,7 +64520,7 @@ aHV(a,b){var s=0,r=A.o(t.v),q,p=this,o,n,m,l,k,j,i,h
 var $async$wp=A.k(function(c,d){if(c===1)return A.l(d,r)
 while(true)switch(s){case 0:i=p.cx
 s=3
-return A.j(A.eJ(i,i.gaK().bc("apps/grativendas500/aux/delivery")).dc(0),$async$wp)
+return A.j(A.eJ(i,i.gaK().bc("apps/grativendas900/aux/delivery")).dc(0),$async$wp)
 case 3:h=d.mC(0)
 if(h==null)h=t.P.a(h)
 i=J.a1(h)
@@ -64616,7 +64616,7 @@ p.f=A.a8(A.jN(o.cR(0,"size"),s))
 try{p.r=A.a8(A.jN(o.cR(0,"type"),s))}catch(r){}try{p.w=A.cx(A.jN(o.cR(0,"delivered"),s))}catch(r){}try{p.x=A.cx(A.jN(o.cR(0,"isPoint"),s))}catch(r){}o=p.a
 s=p.c
 q=t.a
-A.eJ(o,o.gaK().bc("apps/grativendas500/products/"+s)).dc(0).cd(0,new A.aug(p),q)
+A.eJ(o,o.gaK().bc("apps/grativendas900/products/"+s)).dc(0).cd(0,new A.aug(p),q)
 s=p.c
 A.eJ(o,o.gaK().bc("shopping/"+s)).dc(0).cd(0,new A.auh(p),q)},
 amy(a){var s,r,q,p=this,o=J.a1(a)
@@ -64628,7 +64628,7 @@ p.y=A.dY(o.h(a,"fixedPrice"))
 o=p.a
 r=p.c
 q=t.a
-A.eJ(o,o.gaK().bc("apps/grativendas500/products/"+r)).dc(0).cd(0,new A.aui(p),q)
+A.eJ(o,o.gaK().bc("apps/grativendas900/products/"+r)).dc(0).cd(0,new A.aui(p),q)
 r=p.c
 A.eJ(o,o.gaK().bc("shopping/"+r)).dc(0).cd(0,new A.auj(p),q)},
 gVf(){var s=this.e
@@ -65071,7 +65071,7 @@ return A.n($async$jj,r)},
 vt(){var s=0,r=A.o(t.S),q,p=2,o,n=this,m,l,k,j,i,h,g,f
 var $async$vt=A.k(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:h=n.c
-g=A.eJ(h,h.gaK().bc("apps/grativendas500/aux/ordercounter"))
+g=A.eJ(h,h.gaK().bc("apps/grativendas900/aux/ordercounter"))
 p=4
 s=7
 return A.j(J.bgs(g),$async$vt)
@@ -65237,7 +65237,7 @@ a=new A.mT(new A.b7(b),"(default)")
 a0=$.bO()
 a0.a.set(a,c)
 $.iN=a
-c=a}c=o.c=c.mD(j,i)}d=c.bc("apps/grativendas500/products/"+d)
+c=a}c=o.c=c.mD(j,i)}d=c.bc("apps/grativendas900/products/"+d)
 A.ap(d,$.pm(),!0)
 a4=A
 s=9
@@ -65286,7 +65286,7 @@ a=new A.mT(new A.b7(b),"(default)")
 a0=$.bO()
 a0.a.set(a,c)
 $.iN=a
-c=a}c=o.c=c.mD(j,i)}d=c.bc("apps/grativendas500/products/"+A.e(d))
+c=a}c=o.c=c.mD(j,i)}d=c.bc("apps/grativendas900/products/"+A.e(d))
 A.ap(d,$.pm(),!0)
 a4=a7
 a5=new A.nw(d,o)
@@ -65423,7 +65423,7 @@ A.lI.prototype={
 PT(){var s=0,r=A.o(t.H),q=this,p,o,n
 var $async$PT=A.k(function(a,b){if(a===1)return A.l(b,r)
 while(true)switch(s){case 0:n=q.e
-n=A.bR(n,n.gaK().bu("apps/grativendas500/home"))
+n=A.bR(n,n.gaK().bu("apps/grativendas900/home"))
 p=A.dv(n.gaK().b.h(0,"orderBy"),!0,t.j)
 o=A.a("pos".split("."),t.s)
 p.push([new A.mJ(o),!1])
@@ -65597,7 +65597,7 @@ o.cy=t.y4.a(J.a2(s,"date"))
 o.ay=B.ef[A.bb(J.a2(s,"status"))]
 try{o.e=A.a8(J.a2(s,"payId"))}catch(p){o.e=null}try{o.ch=A.a8(J.a2(s,"celNumber"))}catch(p){o.ch=null}try{o.CW=A.a8(J.a2(s,"orderDeliveryTime"))}catch(p){o.CW=null}try{o.f=A.a8(J.a2(s,"mesa"))}catch(p){o.f=null}try{o.d=A.a8(J.a2(s,"mesaName"))}catch(p){o.d=null}try{o.c=A.bb(J.a2(s,"orderIdMesa"))}catch(p){o.c=null}try{o.w=A.a8(J.a2(s,"paymentMethod"))}catch(p){o.w=null}try{o.y=A.dY(J.a2(s,"totalPoints"))}catch(p){o.y=null}try{o.z=A.dY(J.a2(s,"totalPointsGained"))}catch(p){o.z=null}try{o.cx=A.cx(J.a2(s,"isBalcao"))}catch(p){o.cx=!1}try{o.x=A.a8(J.a2(s,"dinheiroInformado"))}catch(p){o.x=null}},
 gu1(){var s=this.a
-return A.bR(s,s.gaK().bu("apps/grativendas500/orders")).bc(this.b)},
+return A.bR(s,s.gaK().bu("apps/grativendas900/orders")).bc(this.b)},
 E5(a,b){return this.afi(0,b)},
 br(a){return this.E5(0,!1)},
 afi(a,b){var s=0,r=A.o(t.H),q=this,p,o,n,m,l,k,j
@@ -65754,7 +65754,7 @@ kL(a,b){return this.afh(0,b)},
 afh(a,b){var s=0,r=A.o(t.H),q=this,p,o,n,m,l,k,j,i
 var $async$kL=A.k(function(c,d){if(c===1)return A.l(d,r)
 while(true)switch(s){case 0:i=q.a
-i=A.bR(i,i.gaK().bu("apps/grativendas500/ordersAwaitingPix")).bc(q.b)
+i=A.bR(i,i.gaK().bu("apps/grativendas900/ordersAwaitingPix")).bc(q.b)
 p=q.d
 o=q.e
 n=q.b
@@ -65773,14 +65773,14 @@ $1(a){return a.VP()},
 $S:166}
 A.iV.prototype={
 ayi(){var s,r=this,q=r.e
-q=A.bR(q,q.gaK().bu("apps/grativendas500/ordersAwaitingPix"))
+q=A.bR(q,q.gaK().bu("apps/grativendas900/ordersAwaitingPix"))
 s=r.a.a
 s===$&&A.b()
 r.f=q.q_(0,"awaitingPixUser",s).nn().hh(new A.aLX(r))},
 ayj(){var s=this.e
-this.f=A.bR(s,s.gaK().bu("apps/grativendas500/orders")).nn().hh(new A.aLY(this))},
+this.f=A.bR(s,s.gaK().bu("apps/grativendas900/orders")).nn().hh(new A.aLY(this))},
 aAh(){var s,r=this,q=r.e
-q=A.bR(q,q.gaK().bu("apps/grativendas500/orders"))
+q=A.bR(q,q.gaK().bu("apps/grativendas900/orders"))
 s=r.a.a
 s===$&&A.b()
 r.f=q.q_(0,"user",s).nn().hh(new A.aM1(r))},
@@ -65792,7 +65792,7 @@ r.f=q.q_(0,"user",s).nn().hh(new A.aM0(r))},
 vJ(){var s=0,r=A.o(t.S),q,p=2,o,n=this,m,l,k,j,i,h,g,f
 var $async$vJ=A.k(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:h=n.e
-g=A.eJ(h,h.gaK().bc("apps/grativendas500/aux/ordercounter"))
+g=A.eJ(h,h.gaK().bc("apps/grativendas900/aux/ordercounter"))
 p=4
 s=7
 return A.j(J.bgs(g),$async$vJ)
@@ -66124,7 +66124,7 @@ var $async$br=A.k(function(a8,a9){if(a8===1){p=a9
 s=q}while(true)switch(s){case 0:o.ch=!0
 o.B()
 if(o.c==null){l=o.a
-o.c=B.b.gT(A.bR(l,l.gaK().bu("apps/grativendas500/products")).T4().a.b.a)
+o.c=B.b.gT(A.bR(l,l.gaK().bu("apps/grativendas900/products")).T4().a.b.a)
 k=!0}else k=!1
 s=2
 return A.j(o.mK(),$async$br)
@@ -66137,11 +66137,11 @@ s=h?3:5
 break
 case 3:a6=B.b
 s=6
-return A.j(A.bR(g,g.gaK().bu("apps/grativendas500/products")).u(0,i),$async$br)
+return A.j(A.bR(g,g.gaK().bu("apps/grativendas900/products")).u(0,i),$async$br)
 case 6:o.c=a6.gT(a9.a.b.a)
 s=4
 break
-case 5:l=A.eJ(g,g.gaK().bc("apps/grativendas500/products/"+A.e(l)))
+case 5:l=A.eJ(g,g.gaK().bc("apps/grativendas900/products/"+A.e(l)))
 h=A.fu(i)
 h.toString
 s=7
@@ -66215,7 +66215,7 @@ case 25:case 21:case 18:l.length===h||(0,A.J)(l),++b
 s=17
 break
 case 19:l=o.c
-l=A.eJ(g,g.gaK().bc("apps/grativendas500/products/"+A.e(l)))
+l=A.eJ(g,g.gaK().bc("apps/grativendas900/products/"+A.e(l)))
 g=A.fu(A.a_(["images",f],t.K,t.X))
 g.toString
 s=27
@@ -66238,7 +66238,7 @@ if(j===i){k.z=h
 k.B()
 m.br(p)}}}s=h.a
 r=h.c
-r=A.eJ(s,s.gaK().bc("apps/grativendas500/products/"+A.e(r)))
+r=A.eJ(s,s.gaK().bc("apps/grativendas900/products/"+A.e(r)))
 s=A.fu(A.a_(["deleted",!0],t.K,t.X))
 s.toString
 r.a.bj(0,s)},
@@ -66299,7 +66299,7 @@ return a[0].toUpperCase()+B.c.cE(a,1)},
 Qm(){var s=0,r=A.o(t.H),q=this,p
 var $async$Qm=A.k(function(a,b){if(a===1)return A.l(b,r)
 while(true)switch(s){case 0:p=q.a
-A.bR(p,p.gaK().bu("apps/grativendas500/products")).q_(0,"deleted",!1).nn().hh(new A.aNQ(q))
+A.bR(p,p.gaK().bu("apps/grativendas900/products")).q_(0,"deleted",!1).nn().hh(new A.aNQ(q))
 return A.m(null,r)}})
 return A.n($async$Qm,r)},
 xg(a){var s,r
@@ -66387,11 +66387,11 @@ s=a4==null?2:4
 break
 case 2:a7=B.b
 s=5
-return A.j(A.bR(a5,a5.gaK().bu("apps/grativendas500/home")).u(0,a3),$async$kL)
+return A.j(A.bR(a5,a5.gaK().bu("apps/grativendas900/home")).u(0,a3),$async$kL)
 case 5:o.c=a7.gT(b1.a.b.a)
 s=3
 break
-case 4:a4=A.eJ(a5,a5.gaK().bc("apps/grativendas500/home/"+a4))
+case 4:a4=A.eJ(a5,a5.gaK().bc("apps/grativendas900/home/"+a4))
 l=A.fu(a3)
 l.toString
 s=6
@@ -66463,7 +66463,7 @@ a4.toString
 l=A.S(a4).i("V<1,aC<h,@>>")
 a0=A.a_(["items",A.W(new A.V(a4,new A.aRR(),l),!0,l.i("ag.E"))],a1,a2)
 a2=o.c
-a2=A.eJ(a5,a5.gaK().bc("apps/grativendas500/home/"+A.e(a2)))
+a2=A.eJ(a5,a5.gaK().bc("apps/grativendas900/home/"+A.e(a2)))
 a5=A.fu(a0)
 a5.toString
 s=25
@@ -66476,7 +66476,7 @@ var $async$bF=A.k(function(b,c){if(b===1){p=c
 s=q}while(true)switch(s){case 0:h=o.a
 g=o.c
 s=2
-return A.j(A.eJ(h,h.gaK().bc("apps/grativendas500/home/"+A.e(g))).a.bF(0),$async$bF)
+return A.j(A.eJ(h,h.gaK().bc("apps/grativendas900/home/"+A.e(g))).a.bF(0),$async$bF)
 case 2:h=o.w,g=h.length,l=o.b,k=0
 case 3:if(!(k<h.length)){s=5
 break}n=h[k]
@@ -66576,7 +66576,7 @@ Gi(){var s=0,r=A.o(t.H),q=this,p,o
 var $async$Gi=A.k(function(a,b){if(a===1)return A.l(b,r)
 while(true)switch(s){case 0:o=q.c
 s=2
-return A.j(A.bR(o,o.gaK().bu("apps/grativendas500/stores")).dc(0),$async$Gi)
+return A.j(A.bR(o,o.gaK().bu("apps/grativendas900/stores")).dc(0),$async$Gi)
 case 2:o=b.giv()
 p=A.S(o).i("V<1,z_>")
 q.a=A.W(new A.V(o,new A.aUw(),p),!0,p.i("ag.E"))
@@ -66643,7 +66643,7 @@ break
 case 6:m=o.JJ(n)
 g=o.b
 s=8
-return A.j(A.bR(g,g.gaK().bu("apps/grativendas500/users")).q_(0,"celNumber",m).dc(0),$async$rZ)
+return A.j(A.bR(g,g.gaK().bu("apps/grativendas900/users")).q_(0,"celNumber",m).dc(0),$async$rZ)
 case 8:l=a2
 g=l.giv()
 f=A.S(g).i("aw<1>")
@@ -66806,7 +66806,7 @@ case 7:d.toString
 m=n.JJ(d)
 d=n.b
 s=9
-return A.j(A.bR(d,d.gaK().bu("apps/grativendas500/users")).q_(0,"celNumber",m).dc(0),$async$nm)
+return A.j(A.bR(d,d.gaK().bu("apps/grativendas900/users")).q_(0,"celNumber",m).dc(0),$async$nm)
 case 9:l=a5
 d=l.giv()
 c=A.S(d).i("aw<1>")
@@ -66821,7 +66821,7 @@ s=d.length===0?10:11
 break
 case 10:d=n.b
 s=12
-return A.j(A.bR(d,d.gaK().bu("apps/grativendas500/users")).dc(0),$async$nm)
+return A.j(A.bR(d,d.gaK().bu("apps/grativendas900/users")).dc(0),$async$nm)
 case 12:j=a5
 i=j.giv().length
 d=a3.b
@@ -66829,7 +66829,7 @@ d===$&&A.b()
 a3.c=A.e(B.c.ft(d).split(" ")[0])+A.e(i)+"@gmail.com"
 case 11:d=n.b
 s=13
-return A.j(A.bR(d,d.gaK().bu("apps/grativendas500/users")).q_(0,"email",a3.c).dc(0),$async$nm)
+return A.j(A.bR(d,d.gaK().bu("apps/grativendas900/users")).q_(0,"email",a3.c).dc(0),$async$nm)
 case 13:h=a5
 if(h.giv().length!==0){a1.$1("Este email j\xe1 est\xe1 sendo utilizado.")
 n.e=!1
@@ -66937,11 +66937,11 @@ break
 case 2:p=q.b
 l=A
 s=4
-return A.j(A.bR(p,p.gaK().bu("apps/grativendas500/users")).bc(m.a.c.a.a).dc(0),$async$oW)
+return A.j(A.bR(p,p.gaK().bu("apps/grativendas900/users")).bc(m.a.c.a.a).dc(0),$async$oW)
 case 4:o=l.bsK(c)
 q.d=o
 o.q6()
-o=A.bR(p,p.gaK().bu("apps/grativendas500/admins"))
+o=A.bR(p,p.gaK().bu("apps/grativendas900/admins"))
 n=q.d.a
 n===$&&A.b()
 s=5
@@ -66961,7 +66961,7 @@ var $async$Fw=A.k(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 l=o.b
 s=6
-return A.j(A.bR(l,l.gaK().bu("apps")).bc("grativendas500").dc(0),$async$Fw)
+return A.j(A.bR(l,l.gaK().bu("apps")).bc("grativendas900").dc(0),$async$Fw)
 case 6:n=b
 k=J.da(n)
 m=k==null?t.P.a(k):k
@@ -66986,7 +66986,7 @@ s=q}while(true)switch(s){case 0:o.c=a
 o.B()
 q=3
 n=o.b
-n=A.bR(n,n.gaK().bu("apps")).bc("grativendas500")
+n=A.bR(n,n.gaK().bu("apps")).bc("grativendas900")
 m=A.fu(A.a_(["name",a],t.K,t.X))
 m.toString
 s=6
@@ -67036,7 +67036,7 @@ o=(p==null?$.ad=$.be():p).bq("[DEFAULT]")
 A.ap(o,$.c1(),!0)
 n=A.dK(new A.b7(o))
 s=5
-return A.j(A.bR(n,n.gaK().bu("apps/grativendas500/users")).q_(0,"celNumber",q.f).dc(0),$async$kd)
+return A.j(A.bR(n,n.gaK().bu("apps/grativendas900/users")).q_(0,"celNumber",q.f).dc(0),$async$kd)
 case 5:p=b.giv()
 m=A.S(p).i("aw<1>")
 l=A.W(new A.aw(p,new A.aXc(q),m),!0,m.i("x.E")).length===0||!1
@@ -67049,7 +67049,7 @@ A.ap(o,$.c1(),!0)
 p=A.dK(new A.b7(o))
 m=q.a
 m===$&&A.b()
-m=A.eJ(p,p.gaK().bc("apps/grativendas500/users/"+m))
+m=A.eJ(p,p.gaK().bc("apps/grativendas900/users/"+m))
 p=A.G(t.N,t.z)
 k=q.b
 k===$&&A.b()
@@ -67088,7 +67088,7 @@ A.ap(i,j,!0)
 o=A.dK(new A.b7(i))
 n=q.a
 n===$&&A.b()
-n=A.eJ(o,o.gaK().bc("apps/grativendas500/users/"+n)).bu("tokens").bc(p)
+n=A.eJ(o,o.gaK().bc("apps/grativendas900/users/"+n)).bu("tokens").bc(p)
 o=$.by_()
 m=o.Mz()
 l=t.N
@@ -67127,7 +67127,7 @@ A.ap(m,n,!0)
 n=A.dK(new A.b7(m))
 o=q.a
 o===$&&A.b()
-A.eJ(n,n.gaK().bc("apps/grativendas500/users/"+o)).bu("tokens").bc(p).a.bF(0)
+A.eJ(n,n.gaK().bc("apps/grativendas900/users/"+o)).bu("tokens").bc(p).a.bF(0)
 return A.m(null,r)}})
 return A.n($async$Da,r)}}
 A.aXc.prototype={
