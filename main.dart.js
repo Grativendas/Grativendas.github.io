@@ -9238,8 +9238,9 @@ _.b=b
 _.c=c
 _.d=d
 _.e=$},
-bGk(a){var s=new self.Blob(a)
-return s},
+bGk(a,b){var s={}
+s.type=b
+return new self.Blob(a,s)},
 bno(a,b,c,d,e){var s=c==null?null:A.bzA(new A.b63(c),t.I3)
 s=new A.Rp(a,b,s,!1,e.i("Rp<0>"))
 s.Qs()
@@ -72755,7 +72756,7 @@ return A.i(m.aee(B.vK),$async$A0)
 case 7:l=a1
 if(l==null){f=A.dq("Erro ao converter QR")
 throw A.c(f)}k=A.e0(l.buffer,0,null)
-j=A.bGk([k])
+j=A.bGk([k],"image/png")
 f=(self.URL||self.webkitURL).createObjectURL(j)
 f.toString
 i=f
