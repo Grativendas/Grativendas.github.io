@@ -67966,7 +67966,7 @@ else i.CW=!1}i.A()},
 gr4(){var s,r,q,p,o,n,m,l
 for(s=this.z,r=s.length,q=1/0,p=0;p<r;++p)for(o=s[p].a,n=o.length,m=0;m<n;++m){l=o[m].d
 l.toString
-if(l<q)q=l}return q},
+if(l<q&&l>0)q=l}return q===1/0?0:q},
 ga8_(){var s,r,q,p,o,n,m,l
 for(s=this.z,r=s.length,q=1/0,p=0;p<r;++p)for(o=s[p].a,n=o.length,m=0;m<n;++m){l=o[m].e
 if(l!=null&&l<q){l.toString
