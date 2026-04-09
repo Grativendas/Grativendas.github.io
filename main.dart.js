@@ -62348,7 +62348,11 @@ B.b.G(p,o)}return new A.a05(new A.as(k,B.l),A.ey(B.bi,A.a([r,A.jM(p,m,B.a0,!1)],
 A.axs.prototype={
 $3(a,b,c){var s,r,q=null,p=b.d
 if(p!=null&&p.y){p=t.p
-s=A.a([A.iz(B.nB,q,0),new A.kk(B.a_c,"Shopping",4,q),new A.kk(B.a_j,"Meus Pedidos Shopping",5,q),new A.kk(B.vA,"Usu\xe1rios",6,q),new A.kk(B.a_7,"Todos os Pedidos",7,q)],p)
+s=A.a([A.iz(B.nB,q,0)],p)
+r=b.d
+if(r!=null&&r.x)B.b.G(s,A.a([new A.kk(B.a_c,"Shopping",4,q),new A.kk(B.a_j,"Meus Pedidos Shopping",5,q)],p))
+s.push(new A.kk(B.vA,"Usu\xe1rios",6,q))
+s.push(new A.kk(B.a_7,"Todos os Pedidos",7,q))
 r=b.d
 if(r!=null&&r.z)B.b.G(s,A.a([new A.kk(B.vD,"Informa\xe7\xf5es dos Pedidos",8,q),new A.kk(B.a_b,"Configura\xe7\xf5es",9,q)],p))
 p=b.d
